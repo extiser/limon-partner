@@ -1,0 +1,21 @@
+mixin login()
+	.login
+		.login__logo
+
+		form(action="" method="").login-form
+			.login-form-element.login-form-element--user
+				input(type="text" value="" placeholder="Ваш логин").login-form__element
+			.login-form-element.login-form-element--password
+				input(type="password" value="" placeholder="Пароль").login-form__element
+				span.login-form__show
+			input(type="submit" value="Войти").login-form__submit
+
+	a(href="#" title="").registration-button Регистрация
+
+	.contacts
+		.contacts__row 
+			p Служба Поддержки: ICQ 468144742
+			em (регистрация, помощь, текущие вопросы)
+		.contacts__row
+			p Администрация: ICQ 640190028
+			em (VIP-партнеры, жалобы) 
