@@ -401,9 +401,223 @@ blockquote {
 // Var for using custom font
 $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
 */
+.form__label {
+  display: block;
+  margin-bottom: 5px;
+  color: #000;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.form__label span {
+  color: #999;
+  font-style: italic;
+}
+
+.form__label--inline {
+  width: 48%;
+}
+
+.form__element {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding-left: 35px;
+  border: 0;
+  background-color: #f8f8f7;
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.26);
+  font-size: 14px;
+}
+
+.form__element:focus {
+  outline: none;
+}
+
+.form__element--large {
+  padding-left: 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+.form__element--medium {
+  width: 48%;
+  padding-left: 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+.form__element--cubic {
+  width: 36px;
+  height: 36px;
+  padding-left: 0;
+  text-align: center;
+  font-size: 33px;
+}
+
+.form__element--textarea {
+  min-height: 62px;
+}
+
+.form__element--noheight {
+  height: 38px;
+}
+
+.form__submit {
+  display: block;
+  box-sizing: border-box;
+  width: 250px;
+  height: 42px;
+  margin: auto;
+  color: #fff;
+  border: 0;
+  background-color: #62a513;
+  font-size: 17px;
+}
+
+.form__submit:hover {
+  background-color: #73b624;
+}
+
+.form__submit--registration {
+  width: 398px;
+  height: 60px;
+  font-size: 22px;
+}
+
+.form__show {
+  position: absolute;
+  top: 1px;
+  right: 0;
+  width: 23px;
+  height: 94%;
+  background-color: #fff;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.26);
+}
+
+.form__show:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  margin: auto;
+  content: "";
+  background-image: url(../images/png-sprite/96dpi/sprite.png);
+  background-position: -200px -72px;
+  width: 15px;
+  height: 9px;
+  background-size: 393px, 215px;
+  background-repeat: no-repeat;
+}
+
+.form__show:hover {
+  cursor: pointer;
+}
+
+.form-element {
+  position: relative;
+  width: 250px;
+  height: 36px;
+  margin: 0 auto 15px;
+}
+
+.form-element:before {
+  position: absolute;
+  top: 12px;
+  left: 13px;
+  display: block;
+  content: "";
+}
+
+.form-element--user:before {
+  background-image: url(../images/png-sprite/96dpi/sprite.png);
+  background-position: -184px -72px;
+  width: 12px;
+  height: 12px;
+  background-size: 393px, 215px;
+  background-repeat: no-repeat;
+}
+
+.form-element--password:before {
+  background-image: url(../images/png-sprite/96dpi/sprite.png);
+  background-position: -166px -72px;
+  width: 14px;
+  height: 13px;
+  background-size: 393px, 215px;
+  background-repeat: no-repeat;
+}
+
+.form-element--large {
+  width: 398px;
+  height: 48px;
+}
+
+.form-element--medium {
+  width: 398px;
+  height: auto;
+}
+
+.form-element--inline {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 398px;
+  height: 48px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 html,
 body {
   height: 100%;
+}
+
+.registration {
+  width: 651px;
+  margin-bottom: 40px;
+}
+
+.registration__login {
+  margin: 0 auto 39px;
+  background-image: url(../images/png-sprite/96dpi/sprite.png);
+  background-position: -166px 0px;
+  width: 227px;
+  height: 68px;
+  background-size: 393px, 215px;
+  background-repeat: no-repeat;
+}
+
+.registration__back {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.registration__back a {
+  position: relative;
+  color: #617587;
+  font-size: 14px;
+}
+
+.registration__back a:before {
+  position: absolute;
+  top: 5px;
+  left: -17px;
+  display: block;
+  content: "";
+  background-image: url(../images/png-sprite/96dpi/sprite.png);
+  background-position: -219px -72px;
+  width: 13px;
+  height: 7px;
+  background-size: 393px, 215px;
+  background-repeat: no-repeat;
 }
 
 .page-login {
@@ -414,7 +628,7 @@ body {
   font-family: "Arial";
 }
 
-.login {
+.login, .registration {
   width: 383px;
   margin: auto;
   padding-top: 43px;
@@ -428,102 +642,7 @@ body {
   background-position: 0px 0px;
   width: 162px;
   height: 215px;
-  background-size: 199px, 215px;
-  background-repeat: no-repeat;
-}
-
-.login-form__element {
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-  padding-left: 35px;
-  border: 0;
-  background-color: #f8f8f7;
-  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.26);
-  font-size: 14px;
-}
-
-.login-form__element:focus {
-  outline: none;
-}
-
-.login-form__submit {
-  display: block;
-  box-sizing: border-box;
-  width: 250px;
-  height: 42px;
-  margin: auto;
-  color: #fff;
-  border: 0;
-  background-color: #62a513;
-  font-size: 17px;
-}
-
-.login-form__submit:hover {
-  background-color: #73b624;
-}
-
-.login-form__show {
-  position: absolute;
-  top: 1px;
-  right: 0;
-  width: 23px;
-  height: 94%;
-  background-color: #fff;
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.26);
-}
-
-.login-form__show:before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: block;
-  margin: auto;
-  content: "";
-  background-image: url(../images/png-sprite/96dpi/sprite.png);
-  background-position: -184px 0px;
-  width: 15px;
-  height: 9px;
-  background-size: 199px, 215px;
-  background-repeat: no-repeat;
-}
-
-.login-form__show:hover {
-  cursor: pointer;
-}
-
-.login-form-element {
-  position: relative;
-  width: 250px;
-  height: 36px;
-  margin: 0 auto 15px;
-}
-
-.login-form-element:before {
-  position: absolute;
-  top: 12px;
-  left: 13px;
-  display: block;
-  content: "";
-}
-
-.login-form-element--user:before {
-  background-image: url(../images/png-sprite/96dpi/sprite.png);
-  background-position: -166px -17px;
-  width: 12px;
-  height: 12px;
-  background-size: 199px, 215px;
-  background-repeat: no-repeat;
-}
-
-.login-form-element--password:before {
-  background-image: url(../images/png-sprite/96dpi/sprite.png);
-  background-position: -166px 0px;
-  width: 14px;
-  height: 13px;
-  background-size: 199px, 215px;
+  background-size: 393px, 215px;
   background-repeat: no-repeat;
 }
 

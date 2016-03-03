@@ -2,13 +2,13 @@ mixin login()
 	.login
 		.login__logo
 
-		form(action="" method="").login-form
-			.login-form-element.login-form-element--user
-				input(type="text" value="" placeholder="Ваш логин").login-form__element
-			.login-form-element.login-form-element--password
-				input(type="password" value="" placeholder="Пароль").login-form__element
-				span.login-form__show
-			input(type="submit" value="Войти").login-form__submit
+		form(action="" method="").form
+			.form-element.form-element--user
+				input(type="text" value="" placeholder="Ваш логин").form__element
+			.form-element.form-element--password
+				input(type="password" value="" placeholder="Пароль").form__element
+				span.form__show
+			input(type="submit" value="Войти").form__submit
 
 	a(href="#" title="").registration-button Регистрация
 

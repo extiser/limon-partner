@@ -1,0 +1,34 @@
+.registration {
+	width: 651px;
+	margin-bottom: 40px;
+
+	@extend .login;
+	&__login {
+		margin: 0 auto 39px;
+
+		@include bg($logo-min);
+	}
+	&__back {
+		margin-top: 25px;
+
+		text-align: center;
+		a {
+			position: relative;
+
+			color: #617587;
+
+			font-size: 14px;
+			&:before {
+				position: absolute;
+				top: 5px;
+				left: -17px;
+
+				display: block;
+
+				content: "";
+
+				@include bg($back);
+			}
+		}
+	}
+}

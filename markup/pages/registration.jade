@@ -1,0 +1,15 @@
+doctype html
+html(class="no-js", lang="ru")
+
+	include ../modules/head/head
+	include ../modules/login/login
+	include ../modules/registration/registration
+
+	head
+		+head(head.defaults)
+	body
+		.page-login
+			+registration()
+
+		//- Main scripts. You can replace it, but I recommend you to leave it here
+		script(src='%=static=%js/main%=hash=%%=min=%.js')

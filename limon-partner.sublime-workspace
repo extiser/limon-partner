@@ -4,16 +4,52 @@
 		"selected_items":
 		[
 			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"marign",
+				"margin-top"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"lig",
+				"login-form"
+			],
+			[
+				"lo",
+				"login-form"
+			],
+			[
+				"login",
+				"login-form"
+			],
+			[
 				"e",
 				"ecoformat_2014@mail"
 			],
 			[
 				"lis",
 				"list-style-position"
-			],
-			[
-				"pad",
-				"padding-bottom"
 			],
 			[
 				"cal",
@@ -24,24 +60,12 @@
 				"click"
 			],
 			[
-				"margin",
-				"margin-top"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
 				"form",
 				"form-row"
 			],
 			[
 				"space",
 				"space-between"
-			],
-			[
-				"marign",
-				"margin-bottom"
 			],
 			[
 				"nth",
@@ -78,10 +102,6 @@
 			[
 				"abo",
 				"about-content"
-			],
-			[
-				"te",
-				"text-align"
 			],
 			[
 				"about",
@@ -130,10 +150,6 @@
 			[
 				"no",
 				"nowrap"
-			],
-			[
-				"back",
-				"background-color"
 			],
 			[
 				"top",
@@ -498,22 +514,6 @@
 			[
 				"ge",
 				"genresListMain"
-			],
-			[
-				"inpu",
-				"inputElement"
-			],
-			[
-				"ra",
-				"rating__item"
-			],
-			[
-				"rat",
-				"rating__item"
-			],
-			[
-				"t",
-				"top"
 			]
 		]
 	},
@@ -591,10 +591,20 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/extiser/git/limon-partner/markup"
+		"/Users/extiser/git/limon-partner/markup",
+		"/Users/extiser/git/limon-partner/markup/modules",
+		"/Users/extiser/git/limon-partner/markup/pages",
+		"/Users/extiser/git/limon-partner/markup/static",
+		"/Users/extiser/git/limon-partner/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/limon-partner/markup/modules/login/login.jade",
+		"/Users/extiser/git/limon-partner/markup/pages/index.jade",
+		"/Users/extiser/git/limon-partner/markup/modules/login/login.scss",
+		"/Users/extiser/git/limon-partner/markup/static/scss/common.scss",
+		"/Users/extiser/git/limon-partner/markup/modules/footer/footer.scss",
+		"/Users/extiser/git/limon-partner/markup/modules/footer/footer.jade",
 		"/Users/extiser/git/limon-partner/tars-config.js",
 		"/Users/extiser/git/ecoformat/markup/modules/footer/footer.jade",
 		"/Users/extiser/git/ecoformat/markup/modules/top-menu/top-menu.jade",
@@ -716,13 +726,7 @@
 		"/Users/extiser/git/sovets-2015/markup/pages/feedback.jade",
 		"/Users/extiser/git/sovets-2015/markup/modules/sidebar/sidebar.jade",
 		"/Users/extiser/git/sovets-2015/markup/modules/sidebar-advertise/sidebar-advertise.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/pagination/pagination.scss",
-		"/Users/extiser/git/sovets-2015/markup/modules/category-content/category-content.scss",
-		"/Users/extiser/git/sovets-2015/markup/modules/category-content/category-content.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/article-rows/article-rows.scss",
-		"/Users/extiser/git/sovets-2015/markup/static/scss/common.scss",
-		"/Users/extiser/git/sovets-2015/.csscomb.json",
-		"/Users/extiser/git/sovets-2015/markup/modules/article-block/article-block.scss"
+		"/Users/extiser/git/sovets-2015/markup/modules/pagination/pagination.scss"
 	],
 	"find":
 	{
