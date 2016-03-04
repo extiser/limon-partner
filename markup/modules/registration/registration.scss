@@ -1,8 +1,9 @@
 .registration {
+	@extend .login;
+	
 	width: 651px;
 	margin-bottom: 40px;
 
-	@extend .login;
 	&__login {
 		margin: 0 auto 39px;
 
