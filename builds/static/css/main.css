@@ -575,6 +575,31 @@ $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
           justify-content: space-between;
 }
 
+.form-element__error {
+  position: absolute;
+  top: 4px;
+  right: -160px;
+  box-sizing: border-box;
+  width: 150px;
+  padding: 5px;
+  color: red;
+  border: 1px solid #ff7e7e;
+  background-color: #fff;
+  font-size: 12px;
+}
+
+.form-element__error:before {
+  position: absolute;
+  top: 7px;
+  left: -5px;
+  width: 0;
+  height: 0;
+  content: "";
+  border-top: 5px solid transparent;
+  border-right: 5px solid #ff7e7e;
+  border-bottom: 5px solid transparent;
+}
+
 html,
 body {
   height: 100%;
