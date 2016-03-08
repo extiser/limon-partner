@@ -147,10 +147,18 @@
 	&--large {
 		width: 398px;
 		height: 48px;
+
+		.form-element__error {
+			top: 10px;
+		}
 	}
 	&--medium {
 		width: 398px;
 		height: auto;
+
+		.form-element__error {
+			top: 25px;
+		}
 	}
 	&--inline {
 		display: flex;
@@ -160,6 +168,10 @@
 
 		align-items: center;
 		justify-content: space-between;
+
+		.form-element__error {
+			top: 10px;
+		}
 	}
 	&__error {
 		position: absolute;

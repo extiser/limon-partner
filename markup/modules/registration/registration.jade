@@ -5,11 +5,14 @@ mixin registration()
 		form(action="" method="").form
 			.form-element.form-element--large
 				input(type="text" value="" placeholder="Ваш логин").form__element.form__element--large
+				.form-element__error Ошибка
 			.form-element.form-element--large
 				input(type="email" value="" placeholder="Емейл").form__element.form__element--large
+				.form-element__error Ошибка
 			.form-element.form-element--inline
 				input(type="password" value="" placeholder="Пароль").form__element.form__element--medium
 				input(type="password" value="" placeholder="Еще раз").form__element.form__element--medium
+				.form-element__error Ошибка
 			.form-element.form-element--inline
 				label.form__label.form__label--inline Пинкод для восстановления пароля 
 					span (4 знака)
@@ -17,15 +20,19 @@ mixin registration()
 				input(type="text" value="" placeholder="*").form__element.form__element--cubic
 				input(type="text" value="" placeholder="*").form__element.form__element--cubic
 				input(type="text" value="" placeholder="*").form__element.form__element--cubic
+				.form-element__error Ошибка
 			.form-element.form-element--medium
 				label.form__label Источник трафика
 				textarea.form__element.form__element--textarea
+				.form-element__error Ошибка
 			.form-element.form-element--medium
 				label.form__label Предполагаемое количество подписок в сутки 
 				input(type="text" value="" placeholder="").form__element.form__element--noheight
+				.form-element__error Ошибка
 			.form-element.form-element--medium
 				label.form__label Ваши контакты
 				textarea.form__element.form__element--textarea
+				.form-element__error Ошибка
 			
 			input(type="submit" value="Зарегистрироваться").form__submit.form__submit--registration
 

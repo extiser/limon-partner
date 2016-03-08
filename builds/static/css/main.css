@@ -553,9 +553,17 @@ $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
   height: 48px;
 }
 
+.form-element--large .form-element__error {
+  top: 10px;
+}
+
 .form-element--medium {
   width: 398px;
   height: auto;
+}
+
+.form-element--medium .form-element__error {
+  top: 25px;
 }
 
 .form-element--inline {
@@ -573,6 +581,10 @@ $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.form-element--inline .form-element__error {
+  top: 10px;
 }
 
 .form-element__error {
@@ -605,6 +617,14 @@ body {
   height: 100%;
 }
 
+.complete__text {
+  padding: 15px 25px 59px 25px;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 28px;
+}
+
 .page-login {
   padding-top: 102px;
   padding-bottom: 102px;
@@ -613,7 +633,7 @@ body {
   font-family: "Arial";
 }
 
-.login, .registration {
+.login, .complete, .registration {
   width: 383px;
   margin: auto;
   padding-top: 43px;
@@ -670,7 +690,7 @@ body {
   margin-bottom: 40px;
 }
 
-.registration__login {
+.registration__login, .complete__logo {
   margin: 0 auto 39px;
   background-image: url(../images/png-sprite/96dpi/sprite.png);
   background-position: -166px 0px;

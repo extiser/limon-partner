@@ -1,0 +1,15 @@
+.complete {
+	@extend .login;
+	&__logo {
+		@extend .registration__login;
+	}
+	&__text {
+		padding: 15px 25px 59px 25px;
+
+		text-align: center;
+
+		font-size: 21px;
+		font-weight: bold;
+		line-height: 28px;
+	}
+}

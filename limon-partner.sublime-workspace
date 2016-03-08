@@ -4,15 +4,11 @@
 		"selected_items":
 		[
 			[
-				"box",
-				"box-shadow"
+				"fon",
+				"font-size"
 			],
 			[
-				"pad",
-				"padding-bottom"
-			],
-			[
-				"margin",
+				"marign",
 				"margin-bottom"
 			],
 			[
@@ -20,12 +16,36 @@
 				"text-align"
 			],
 			[
-				"marign",
-				"margin-top"
+				"pad",
+				"padding-bottom"
 			],
 			[
-				"fon",
-				"font-size"
+				"min",
+				"min-height"
+			],
+			[
+				"fom",
+				"form__label"
+			],
+			[
+				"for",
+				"form__element--cubic"
+			],
+			[
+				"form",
+				"form-element"
+			],
+			[
+				"fo",
+				"form-element"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"margin",
+				"margin-bottom"
 			],
 			[
 				"back",
@@ -60,10 +80,6 @@
 				"click"
 			],
 			[
-				"form",
-				"form-row"
-			],
-			[
 				"space",
 				"space-between"
 			],
@@ -86,10 +102,6 @@
 			[
 				"ser",
 				"sertificates-slider"
-			],
-			[
-				"fo",
-				"font-weight"
 			],
 			[
 				"ab",
@@ -492,10 +504,6 @@
 				"authors"
 			],
 			[
-				"for",
-				"form__submit"
-			],
-			[
 				"gen",
 				"genresListSidebar"
 			],
@@ -506,14 +514,6 @@
 			[
 				"di",
 				"display"
-			],
-			[
-				"do",
-				"DownloadNewestPopular"
-			],
-			[
-				"ge",
-				"genresListMain"
 			]
 		]
 	},
@@ -593,15 +593,22 @@
 	[
 		"/Users/extiser/git/limon-partner/markup",
 		"/Users/extiser/git/limon-partner/markup/modules",
+		"/Users/extiser/git/limon-partner/markup/modules/login",
+		"/Users/extiser/git/limon-partner/markup/modules/registration",
 		"/Users/extiser/git/limon-partner/markup/pages",
 		"/Users/extiser/git/limon-partner/markup/static",
 		"/Users/extiser/git/limon-partner/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/limon-partner/markup/static/scss/GUI.scss",
 		"/Users/extiser/git/limon-partner/markup/modules/login/login.jade",
-		"/Users/extiser/git/limon-partner/markup/pages/index.jade",
+		"/Users/extiser/git/limon-partner/markup/modules/registration/registration.scss",
+		"/Users/extiser/git/limon-partner/markup/modules/registration/registration.jade",
 		"/Users/extiser/git/limon-partner/markup/modules/login/login.scss",
+		"/Users/extiser/git/limon-partner/markup/pages/login.jade",
+		"/Users/extiser/git/limon-partner/markup/pages/registration.jade",
+		"/Users/extiser/git/limon-partner/markup/pages/index.jade",
 		"/Users/extiser/git/limon-partner/markup/static/scss/common.scss",
 		"/Users/extiser/git/limon-partner/markup/modules/footer/footer.scss",
 		"/Users/extiser/git/limon-partner/markup/modules/footer/footer.jade",
@@ -721,12 +728,7 @@
 		"/Users/extiser/git/sovets-2015/markup/modules/comments/comments.scss",
 		"/Users/extiser/git/sovets-2015/markup/modules/feedback-content/feedback-content.scss",
 		"/Users/extiser/git/sovets-2015/markup/static/scss/etc/etc.scss",
-		"/Users/extiser/git/sovets-2015/markup/pages/advertising.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/feedback-content/feedback-content.jade",
-		"/Users/extiser/git/sovets-2015/markup/pages/feedback.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/sidebar/sidebar.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/sidebar-advertise/sidebar-advertise.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/pagination/pagination.scss"
+		"/Users/extiser/git/sovets-2015/markup/pages/advertising.jade"
 	],
 	"find":
 	{
@@ -745,6 +747,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			".login-form",
 			"../img/",
 			"день",
 			"%=staticPrefix=%images/content/",
@@ -871,8 +874,7 @@
 			"figure",
 			"gallerySelector",
 			"wrapper",
-			"append",
-			"Наши партнёры: "
+			"append"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -880,6 +882,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			".form",
 			"%=staticPrefixForCss=%general/",
 			"http://shtukaturkapro.ru/TEMP/",
 			"DINPro-Bold",
@@ -1006,8 +1009,7 @@
 			"/font/",
 			"/images/",
 			"images",
-			"font",
-			"url(PIE.htc);"
+			"font"
 		],
 		"reverse": false,
 		"show_context": false,
@@ -1066,7 +1068,7 @@
 	"project": "limon-partner.sublime-project",
 	"replace":
 	{
-		"height": 40.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
