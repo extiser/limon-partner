@@ -1,6 +1,21 @@
 // GUI stylies of the project
 // For example, styles of the links, buttons and so on.
 
+.page-login {
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+
+	background: url(%=staticPrefixForCss=%general/bg.jpg) no-repeat;
+	background-size: cover;
+
+	font-family: "Arial";
+}
+
 .form {
 	&__label {
 		display: block;
@@ -147,7 +162,6 @@
 	&--large {
 		width: 398px;
 		height: 48px;
-
 		.form-element__error {
 			top: 10px;
 		}
@@ -155,7 +169,6 @@
 	&--medium {
 		width: 398px;
 		height: auto;
-
 		.form-element__error {
 			top: 25px;
 		}
@@ -168,7 +181,6 @@
 
 		align-items: center;
 		justify-content: space-between;
-
 		.form-element__error {
 			top: 10px;
 		}

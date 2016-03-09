@@ -401,6 +401,18 @@ blockquote {
 // Var for using custom font
 $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
 */
+.page-login {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/general/bg.jpg) no-repeat;
+  background-size: cover;
+  font-family: "Arial";
+}
+
 .form__label {
   display: block;
   margin-bottom: 5px;
@@ -615,27 +627,26 @@ $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
 html,
 body {
   height: 100%;
+  font-family: 'Arial';
+}
+
+.complete {
+  position: relative;
+  top: 100px;
+  margin-top: 0 !important;
 }
 
 .complete__text {
-  padding: 15px 25px 59px 25px;
+  padding: 15px 25px 15px 25px;
   text-align: center;
   font-size: 21px;
   font-weight: bold;
   line-height: 28px;
 }
 
-.page-login {
-  padding-top: 102px;
-  padding-bottom: 102px;
-  background: url(../images/general/bg.jpg) no-repeat;
-  background-size: cover;
-  font-family: "Arial";
-}
-
 .login, .complete, .registration {
   width: 383px;
-  margin: auto;
+  margin: 100px auto 0;
   padding-top: 43px;
   padding-bottom: 42px;
   background-color: #fff;
@@ -672,6 +683,7 @@ body {
 }
 
 .contacts {
+  margin-bottom: 100px;
   text-align: center;
   color: #afafaf;
   font-size: 12px;
